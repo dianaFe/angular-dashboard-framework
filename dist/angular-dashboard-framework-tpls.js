@@ -32,6 +32,7 @@
 *
 * Holds settings and values for framework supported locales
 */
+angular.module('adf.locale', []);
 angular.module('adf.locale')
 .constant('adfLocale',
   {
@@ -110,8 +111,6 @@ angular.module('adf.locale')
  */
 
 
-
-angular.module('adf.locale', [])
 
 /*
  * The MIT License
